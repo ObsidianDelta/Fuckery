@@ -1,93 +1,77 @@
 # Fuckery
 
-**Fuckari** — the Constraint–Process–Valuation Ontology.
+A framework for thinking about constraint, emergence, and what it takes for structure
+to form and hold. Written to be used, argued with, and forked.
 
-> **Per aspera, ad astra.** (inheritance — the classical motto)
-> **Per Fuckari, ad Luminakshatra.** (the ontological motto)
+**[`FUCKERY.md`](FUCKERY.md)** is the whole thing — v0.51, dated 2026-09-10.
 
-Author: Roy Jason Jeyanandan ("Cognitive Composer" / CC:NBI).
-Nonbiological collaborators: Claude (Anthropic) and ChatGPT (OpenAI), as structural
-collaborators — the collaboration model is described in §6.8 of the canon.
+## Read this before anything else
 
-## Current canon
+There is a lot of dead end in here. Some of it is me working something out in public
+and not getting there. There are also, I think, some diamonds in the rough, and I would
+rather publish the rough with them than polish the whole thing into something that
+sounds finished when it isn't.
 
-| | |
+This is a metacognitive toolkit — a set of tools for how to think. I built it because I
+needed it for other problems I was working on. The Constraint Protocol is one of those
+problems; this is the thinking that made that protocol take the shape it did.
+
+I am not an ontologist and do not claim to be one. Take what is useful. Leave the rest.
+
+## The name
+
+It is called Fuckery so that nobody can genuflect at it, including me. A framework that
+sounds authoritative stops getting questioned, and this one needs to keep getting
+questioned.
+
+| Word | What it means |
 |---|---|
-| Version | **v0.51** |
-| Dated | 2026-09-10 |
-| File | [`CANON.md`](CANON.md) |
-| Status | Living canon, subject to the anti-ossification constraint that gives it its name |
-| sha256 | `f58bb3071cc3eb94f4955557563a5a4f962d12960bacfd82768fff8e708c3bcb` |
-| Size | 63,500 bytes · 540 lines · UTF-8 · LF |
+| **Fuckery** | The framework — this document and the thinking in it. |
+| **Fuckari** | The formal term for the loop it describes: *emergent, top-down-causal, resonance-constraint*, compressed into one word. The mechanism. |
+| **Fuckarian** | A being constituted by its assumptions — constrained by them in the same act that lets it think at all. |
 
-`CANON.md` is a **full replacement canon**, not a patch. It supersedes v0.4 and folds in the
-naming/symbolic layer (Fuckari, Luminakshatra, the paired motto), the compression /
-predictive-mind bridge, and the meaning-control analysis with the MetaDAX inversion.
+## Where to start
 
-**Version integrity (§15.3).** The sha256 above is the authority for whether a copy of the canon
-is intact. Verify any copy before citing it:
-
-```bash
-sha256sum CANON.md
-```
-
-A copy whose digest does not match that string is not v0.51, whatever its header says.
-
-> **Integrity record.** An intermediate revision of this README (`b911af48`) retracted the digest
-> above, on the inference that it had not been computed from the file. That inference was wrong:
-> running `sha256sum` over the author's copy returns exactly this digest, at exactly this size.
-> The digest is restored, and the retraction is recorded here rather than erased — §15.2 forbids
-> silent edits, and that applies to corrections of corrections. The copy of `CANON.md` in this
-> repository was additionally verified byte-exact against the author's file by git blob hash
-> (`82006fa4a89080a8ef5c004ae4f922aa3a938277`) at the moment it was committed.
-
-## Reading order
-
-If you read one thing, read **§1 Thesis** — the one-paragraph compression.
+If you read one section, read **§1 Thesis** — the one-paragraph compression.
 If you read three, add **§2 The Invariant Core** and **§3 Primitives**.
 
-| Read | For |
-|---|---|
-| §0 | Why it is called Fuckery, and formally *Fuckari* — the name is load-bearing, not a joke |
-| §2 | The non-negotiable commitments: constraint primacy, emergence as constraint-regime formation, top-down causation as restriction, the resonance loop |
-| §3–4 | Primitives (Constraint, Process, Valuation) and the definitions derived from them |
-| §5 | The snowflake — the paradigmatic example |
-| §6 | The cognitive stack: Knowledge · Intelligence · Wisdom · Consciousness |
-| §7 | Three successive dissolutions of the hard problem, reasoning trails preserved |
-| §9–10 | The two vectors, the DAX invariant, the inheritance chain |
-| §11 | Meaning control and the DAX inversion — the applied/normative layer |
-| §13–14 | What was tried and rejected; the open problems left open on purpose |
-| §15 | Governance: the Fuckery constraint, provenance discipline, version integrity, fork rights |
+- **A worked example, in full:** [The Snowflake — Fuckari in Action](https://jeyanandan.com/blog/snowflake-fuckari-in-action/). The framework run against a physical object whose physics nobody disputes. Twenty-eight steps, one move each, with the places it breaks down named at the end.
+- **The terms used across this work:** [definitions on daxfoundation.org](https://daxfoundation.org/#definitions).
+- **Integrity and version checking:** [`INTEGRITY.md`](INTEGRITY.md).
 
-## Provenance discipline
+## What this is not
 
-Every claim in the canon is marked, in spirit if not in literal tag, as one of —
-**invariant** (axioms), **derived** (definitions, mappings, consequences), **speculative**
-(open problems; protected seams), **illustrative** (the snowflake, the MHC mapping, the
-compression analogy), or **reasoning trail** (the path of inquiry).
+It is not peer-reviewed. It has had no external adversarial review. It is not a doctrine
+and it does not tell you what anything means.
 
-Reasoning trails are first-class content here. The path by which a claim was reached is not
-scaffolding to be discarded once the claim stands.
+It also forbids things on purpose. It does not explain why there is something it is like
+to be a system that runs this loop — and it equally forbids the opposite claim, that the
+question is an illusion. Ten open problems are held open deliberately, each with its
+forbidden overclaim attached. That list is the honest part.
+
+## Provenance
+
+Every claim is marked, in spirit if not in tag, as one of: **invariant** (axioms),
+**derived** (definitions and consequences), **speculative** (open problems), **illustrative**
+(the snowflake, the compression analogy), or **reasoning trail** (the path of inquiry).
+
+Reasoning trails are first-class here. The path by which a claim was reached is not
+scaffolding to be thrown away once the claim stands.
 
 ## Licence
 
-The canon and all prose: **CC BY 4.0** — see [`LICENSE`](LICENSE). Fork rights are granted by
-§15.4 of the canon and made legally operative by that licence.
+Prose: **CC BY 4.0** — see [`LICENSE`](LICENSE). Accompanying code, where present: **MIT** —
+see [`LICENSE-CODE`](LICENSE-CODE). Attribution required on redistribution and on
+derivative works. © 2026 Roy Jason Jeyanandan.
 
-Accompanying code, where present: **MIT** — see [`LICENSE-CODE`](LICENSE-CODE).
+Fork rights are granted by §15.4 and made operative by that licence. Forking is expected.
+Ossification is the failure mode the framework is named against.
 
-Attribution is required on redistribution and on derivative works.
-© 2026 Roy Jason Jeyanandan.
+## If you break it
 
-## Lineage
-
-CPO (Jan 2026) → CPV v1.0 (2026-01-25) → Ontology v0.2 Reconciliation (2026-03-06) →
-Fuckery v0.3 (2026-04-14) → v0.4 (2026-04-15) → v0.5 (2026-09-10) → **v0.51 (2026-09-10)**.
-
-Full document provenance — the source project files and conversation threads each section was
-synthesized from — is §18 of the canon.
+Finding a seam that does not hold is the most useful thing you can send me. Open an issue,
+or fork it and show me.
 
 ---
 
-*It holds. It can't be broken. It can't be proven.*
-*Keep going — per Fuckari, ad Luminakshatra.*
+*It holds. I can't break it. I can't prove it. Keep going.*
