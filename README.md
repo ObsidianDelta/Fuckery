@@ -64,7 +64,6 @@ Fewer Bothans than that, but the hours were real and nobody paid for them. If an
 
 ## Related
 
-- [The Constraint](https://jeyanandan.com/blog/the-constraint/) — the essay this framework fed into, and the argument for the Constraint Protocol.
 - [daxfoundation/constraint-protocol](https://github.com/daxfoundation/constraint-protocol) — the protocol itself. Public working draft.
 - [daxfoundation.org](https://daxfoundation.org) — normative definitions for the vocabulary used across both.
 
